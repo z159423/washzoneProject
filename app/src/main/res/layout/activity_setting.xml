@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_autoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXT"
+        />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+
+    <Button
+        android:id="@+id/btn_timeset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="설정"/>
+
+    <CheckBox
+        android:id="@+id/cb_autosms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생일인 회원에게 자동으로 문자 보내기"
+        android:checked="false"/>
+
+</LinearLayout>

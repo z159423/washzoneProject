@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/find_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            />
+
+        <EditText
+            android:id="@+id/find_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="이름"
+            />
+
+        <EditText
+            android:id="@+id/find_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="전화번호"
+            />
+
+        <EditText
+            android:id="@+id/find_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="생년월일"
+            />
+
+        <EditText
+            android:id="@+id/find_carnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="차번호"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="찾기"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_totaluser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="ID    이름      전화번호      생년월일     포인트적립    차종   차번호" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#000000"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

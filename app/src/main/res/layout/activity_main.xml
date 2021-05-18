@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="left"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/washzone"/>
+
+        <!--<TextView
+        android:id="@+id/tv_ph"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:hint="전화번호를 입력하세요..."
+        />-->
+
+        <Button
+            android:id="@+id/btn_pn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="30dp"
+            android:text="회원등록" />
+
+        <Button
+            android:id="@+id/btn_adminmenu"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="25dp"
+            android:text="관리자 메뉴" />
+
+
+    </LinearLayout>
+
+
+    <!--<TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num1"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/Num2"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/Num3"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="3" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num4"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/Num5"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/Num6"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="6" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num7"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/Num8"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/Num9"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="9" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num0"
+                android:layout_span="2"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/Back"
+                android:onClick="Numbering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30dp"
+                android:text="-" />
+        </TableRow>
+    </TableLayout>-->
+
+</LinearLayout>

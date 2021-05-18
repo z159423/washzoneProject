@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="vertical">
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/allusers"
+            android:layout_gravity="center"
+            />
+
+        <Button
+        android:id="@+id/btn_alluser"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="모든 회원보기" />
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/finduser"
+            android:layout_gravity="center"
+            />
+
+    <Button
+        android:id="@+id/btn_finduser"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="회원 찾기"
+        android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/birthdayuser"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_birthdayuser"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="오늘 생일인 회원"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/smssetting"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_SMSSetting"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="생일 이벤트 문자 멘트 설정"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".RequestUser"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/smssetting"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/btn_SMSSetting2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="카드 분실 문자 멘트 설정"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/smsrecord2"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_SMSRecord"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="문자 전송 기록"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestUser"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/settings"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_Setting"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            android:text="설정" />
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_SqlQuery"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            android:text="SQL Query 명령어" />
+
+        <Button
+            android:id="@+id/btn_kakaotest"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            android:text="카카오링크 테스트" />
+
+        <com.kakao.usermgmt.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="25dp"
+        android:text="뒤로" />
+
+    </LinearLayout>
+</ScrollView>
